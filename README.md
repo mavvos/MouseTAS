@@ -43,4 +43,6 @@ C
 ```
 
 ## ℹ About
+MouseTAS was made to be used in creating Tool-Assisted speedruns. Although, the precision is not great, so the idea was abandoned. You could probably get more precise commands by messing with the mouse speed and finding a middle term with Moving, Sleeping and Clicking.
+
 This software uses the [[# TO DO]] LICENSE.
