@@ -13,7 +13,7 @@ import PySimpleGUI as sg
 
 
 list_holder = []  # Hold user commands, same as Listbox
-
+MOUSE_SPEED = 4
 # Modules keyboard and PySimpleGUI use different mapping for special keys
 HOTKEYS_KEYBOARD = {
     "Start": "F8",
@@ -190,7 +190,7 @@ def start():
     for command in list_holder:
         if command[0] == "M":  # Move
             coords = re.findall(r"\d+", command)
-            autoit.mouse_move(int(coords[0]), int(coords[1]), speed=4)
+            autoit.mouse_move(int(coords[0]), int(coords[1]), speed=MOUSE_SPEED)
         elif command[0] == "C":  # Click
             autoit.mouse_click()
         elif command[0] == "S":  # Sleep
