@@ -11,8 +11,9 @@
 If you just want to control your mouse, you're probably best of just using [AutoHotkey](https://www.autohotkey.com/).
 But if for some reason it doesn't work, you don't want to use it or if your clicks aren't registering in some window, feel free to try this software, these are the reasons why it exists.
 
-## 🤔 Demonstration
-[[# TO DO]]
+## 🖱 Interface
+![DemoInterface](https://github-production-user-asset-6210df.s3.amazonaws.com/142045914/283117630-2befe3b7-0d37-49c8-9407-86cfbf789bf8.png)
+
 
 ## 🔨 How It Works
 MouseTAS controls your Mouse with simple commands to Move, Click and Wait.
@@ -45,4 +46,4 @@ C
 ## ℹ About
 MouseTAS was made to be used in creating Tool-Assisted speedruns. Although, the precision is not great, so the idea was abandoned. You could probably get more precise commands by messing with the mouse speed and finding a middle term with Moving, Sleeping and Clicking.
 
-This software uses the [[# TO DO]] LICENSE.
+This software uses the [GNU General Public License v3.0](https://github.com/mavvos/MouseTAS/blob/main/LICENSE).
